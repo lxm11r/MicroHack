@@ -4,7 +4,9 @@
 
 ## Task 1: Set up an Azure Container Registry with admin account
 
-To create a Container Registry there are multiple options like the Azure portal or the Azure CLI. To do it with the CLI use the following code:
+First, you have to create a [Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
+
+The second step is to create a Container Registry. There are multiple options to achieve this, e.g. via the Azure portal or using the Azure CLI. In this challenge will use the Azure CLI:
 
 ```
 az acr create `
@@ -13,8 +15,9 @@ az acr create `
   --sku Basic `
   --admin-enabled true
 ```
-The Resource Group and Container Registry name are global variables, you should set in advance or replace here with the actual names. 
-With the 
+
+The Resource Group and Container Registry names are global variables, you should set them in advance and replace them with the actual names.
+With the
 `--sku Basic`
 you are setting the basic permission concept.
 
@@ -25,7 +28,7 @@ If you'd like to do it with the Azure Portal (or any other way) you can find a t
 A Container App Environment like the Container Registry can be setup in several ways. Using the azure CLI it would be:
 
 ```
-az containterapp env create `
+az containerapp env create `
   --name $ENVIRONMENT `
   --resource-group $RESOURCE_GROUP`
   --location "westeurope"

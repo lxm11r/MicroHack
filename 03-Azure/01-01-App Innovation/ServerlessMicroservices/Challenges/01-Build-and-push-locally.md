@@ -9,15 +9,16 @@ To later be able to deploy them in Container Apps we first have to build images 
 
 ## Challenge
 
-* Clone subdirectory Flightbooker and push into personal repository
-* Create docker images of the microservices
-* Push the images to your ACR
+- Clone subdirectory Flightbooker and push into personal repository
+- Create docker images of the microservices
+- Push the images to your ACR
 
 ## Success Criteria
 
-* Application runs locally
-* Images are pushed to the ACR
-* Images can be pulled from the ACR
+- Application runs locally
+- Images are pushed to the ACR
+- Images can be pulled from the ACR
 
 ## Learning Resources
-* [Push to Container Registries](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli)
+
+- [Push to Container Registries](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli)

@@ -13,7 +13,7 @@ The challenge will be to set up the basic Azure resources we need to achieve our
 
 To have a relateable scenario, we will create a booking system for an airline, where customers can book their seats and receive a bill.
 
-Real world scenarios can include up to hundreds of microservices within an environment. To keep at as simple as possible for this microhack we will only work with two microservices within a single environment.
+Real world scenarios can include up to hundreds of microservices within an environment. To keep it as simple as possible we will only work with two microservices for this microhack within a single environment.
 
 Below you can find the architecture diagram of the application we are going to build:
 
