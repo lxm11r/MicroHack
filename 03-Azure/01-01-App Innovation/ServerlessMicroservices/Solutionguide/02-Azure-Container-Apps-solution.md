@@ -9,10 +9,11 @@ You can create a container app with the Azure portal or with the Azure CLI.
 For the backend your CLI code should look something like this:
 
 ```
-az containerapp up `
+az containerapp create `
   --name flightbooker-backend `
   --resource-group $RESOURCE_GROUP `
   --environment $CONTAINERAPPS_ENVIRONMENT `
+  --registry-server "$ACR_NAME.azurecr.io"`
   --image "$ACR_NAME.azurecr.io/flightbookerbackend:latest"`
   --target-port 3000`
   --ingress 'internal' `
@@ -76,7 +77,7 @@ To enable dapr for both Apps, run the following commands:
 az containerapp dapr enable --name "flightbooker-backend" `
   --resource-group $RESOURCE_GROUP`
   --dapr-app-id "flightbooker-backend"`
-  --dapr-app-port 443
+  --dapr-app-port 3000
 
 az containerapp dapr enable --name "flightbooker-frontend" `
   --resource-group $RESOURCE_GROUP`
