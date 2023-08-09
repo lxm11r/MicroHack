@@ -4,11 +4,23 @@
 
 Here you can find ready to go manifests for both instances:
 
-* [redis](https://kubernetes.io/docs/tutorials/configuration/configure-redis-using-configmap/)
-* [wordpress](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
+- [redis](https://kubernetes.io/docs/tutorials/configuration/configure-redis-using-configmap/)
+- [wordpress](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
 
 Scaling your clusters can be achieved via the scale command of kubectl. Here is a sample:
 
 ```bash
 kubectl scale [--resource-version=version] [--current-replicas=count] --replicas=COUNT (-f FILENAME | TYPE NAME)
+```
+
+For example, for redis you can execute the following commands:
+
+```bash
+kubectl create deploy redis --image=redis
+```
+
+Next, you can specify the number of replicas, e.g. 5:
+
+```bash
+kubectl scale --replicas=5 deployment/redis
 ```
