@@ -16,7 +16,6 @@ metadata:
   name: wordpress-ingress
   annotations:
     kubernetes.io/ingress.class: nginx
-    ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
    - http:
