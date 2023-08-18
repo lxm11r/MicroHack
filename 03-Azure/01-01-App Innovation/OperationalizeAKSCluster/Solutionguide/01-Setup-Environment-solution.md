@@ -26,14 +26,21 @@ Go to the menu 'Create new resource' in the Portal and complete the forms as sho
 
 ## Step 3: Setting up the AKS
 
-Now we create the AKS via the portal. Once again, access the resource creation menu and complete all the required fields as depicted in the picture. We will utilize the same resource group as as the one used for the KeyVault:
+Now we create the AKS via the portal. Once again, access the resource creation menu, go to Kubernetes Services, and complete all the required fields as depicted in the picture. We will utilize the same resource group as as the one used for the KeyVault:
 Standard Setup:
+
 ![AKSSetup1](../Images/01-setup-env/akssetup01.png)
+
 Nodepools:
+
 ![AKSSetup2](../Images/01-setup-env/akssetup02.png)
+
 Access:
+
 ![AKSSetup3](../Images/01-setup-env/akssetup03.png)
+
 Network:
+
 ![AKSSetup4](../Images/01-setup-env/akssetup04.png)
 
 ## Step 4: Accessing the resources
