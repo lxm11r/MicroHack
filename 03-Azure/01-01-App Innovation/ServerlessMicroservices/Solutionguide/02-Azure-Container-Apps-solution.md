@@ -77,7 +77,7 @@ To enable dapr for both Apps, run the following commands:
 az containerapp dapr enable --name "flightbooker-backend" `
   --resource-group $RESOURCE_GROUP`
   --dapr-app-id "flightbooker-backend"`
-  --dapr-app-port 3000
+  --dapr-app-port 443
 
 az containerapp dapr enable --name "flightbooker-frontend" `
   --resource-group $RESOURCE_GROUP`
