@@ -1,5 +1,7 @@
 # Challenge 3: Deploy Microservices to Azure Container App via GitHub Actions
 
+Duration: 30 minutes
+
 [Previous Challenge Solution](02-Azure-Container-Apps-solution.md) - **[Home](../README.md)** - [Next Challenge Solution](04-FrontDoor-solution.md)
 
 ## Task 1: Connect GitHub Actions to Azure
