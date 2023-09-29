@@ -8,16 +8,16 @@ To observe our cluster we now add Azure Monitor to our environment. This is the 
 
 ## Challenges
 
-* Create Azure Monitor resource in same region and resource group like the other resources
-* Configure Container Insights feature for the cluster
+- Create Azure Monitor resource in same region and resource group like the other resources
+- Configure Container Insights feature for the cluster
 
 ## Success Criteria
 
-* Azure Monitor is added to the environment
-* Container Insights feature is configured
-* Metrics can be viewed in Azure Portal
+- Azure Monitor is added to the environment
+- Container Insights feature is configured
+- Metrics can be viewed in Azure Portal
 
 ## Learning Resources
 
-* [Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
-* [Container Insights Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview)
+- [Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
+- [Container Insights Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview)

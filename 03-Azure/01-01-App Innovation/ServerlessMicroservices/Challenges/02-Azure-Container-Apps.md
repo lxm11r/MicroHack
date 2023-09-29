@@ -10,25 +10,26 @@ We also want to enable dapr in our Azure Container Apps, so we can use it for Se
 
 ## Challenge
 
-* Create Container Apps for each microservice 
-* West Europe as region
-* Part of our Container App environment
-* Images are pulled from the ACR
-* Basic Security is set up
-* Set up environment variables for VITE_DAPR_HOST and VITE_DAPR_HTTP_PORT (hint: BookingService.js)
-* Set scale to 0-1 replicas
-* Activate dapr in Container Apps
+- Create Container Apps for each microservice
+- West Europe as region
+- Part of our Container App environment
+- Images are pulled from the ACR
+- Basic Security is set up
+- Set up environment variables for VITE_DAPR_HOST and VITE_DAPR_HTTP_PORT (hint: BookingService.js)
+- Set scale to 0-1 replicas
+- Activate dapr in Container Apps
 
 ## Success Criteria
 
-* All Services are deployed in the environment
-* The frontend is accessible under public DNS and/or IP
-* The frontend can access the backend container app through the environment variables
-* If you choose and book seats you'll get a confirmation and seats are no longer available
-* Backend is not reachable publicly
-* App runs in Container Apps with dapr
+- All Services are deployed in the environment
+- The frontend is accessible under public DNS and/or IP
+- The frontend can access the backend container app through the environment variables
+- If you choose and book seats you'll get a confirmation and seats are no longer available
+- Backend is not reachable publicly
+- App runs in Container Apps with dapr
 
 #### Learning Resources
-* [Benefits of Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/compare-options)
-* [dapr](https://docs.dapr.io/concepts/overview/)
-* [dapr Service Invocation](https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/service-invocation)
+
+- [Benefits of Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/compare-options)
+- [dapr](https://docs.dapr.io/concepts/overview/)
+- [dapr Service Invocation](https://learn.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/service-invocation)
